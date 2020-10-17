@@ -1,16 +1,23 @@
 # Fossil-SCM-How-To
-Collection of simple commands for Fossil SCM
+Collection of simple commands for Fossil SCM.  The batch files are ordered and include examples of a simple development cycle from the creation of a Fossil repository through testing and release.
 
-The following is an effective branching strategy for configuration control of software.
+The following four types of branches are effective in managing software through development, testing, and release.
 
-trunk -- main stream of consciousness, always keeps trunking forward
+##trunk##
 
-feature -- (Feature Name YYYY-MM-DD) from any point in trunk, working on an idea, but not sure about it yet, any work in progress
+Main stream of consciousness, always keeps trunking forward
 
-test -- (Features YYYY-MM-DD) from a point in trunk, it has all of the features we need
+##feature##
 
-release -- from a well tested branch that all the features work as intended
+This branch is created from any point in trunk, working on an idea, but not sure about it yet, any work in progress.  Naming convetion should be: Feature-Name Timestamp 
 
 Users working a specific feature are assumed to be online and aware of what happens if other users want to contribute to the feature branch.  It is best to have feature branches encompass small bits of work and merge back to trunk as quick as possible.
 
-![Image of Branching](https://octodex.github.com/images/yaktocat.png)
+##test##
+
+This branch is created from any point in trunk.  It has all of the features we need. Naming convetion should be: Features Timestamp
+
+##release##
+This branch is created from a test branch once testing has been developed.
+
+![Image of Branching](https://)
