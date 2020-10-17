@@ -11,7 +11,7 @@ Main stream of consciousness, always keeps trunking forward
 
 This branch is created from any point in trunk, working on an idea, but not sure about it yet, any work in progress.  Naming convetion should be: Feature-Name Timestamp 
 
-Users working a specific feature are assumed to be online and aware of what happens if other users want to contribute to the feature branch.  It is best to have feature branches encompass small bits of work and merge back to trunk as quick as possible.
+Developers working a specific feature are assumed to be online and aware of what happens if other developers want to contribute to the feature branch.  It is best to have feature branches encompass small bits of work and merge back to trunk as quick as possible.
 
 ## test
 
