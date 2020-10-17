@@ -18,6 +18,6 @@ Developers working a specific feature are assumed to be online and aware of what
 This branch is created from any point in trunk.  It has all of the features we need. Naming convetion should be: Features Timestamp
 
 ## release
-This branch is created from a test branch once testing has been developed.
+This branch is created from a test branch once testing has been developed.  It is merged back to trunk once all tests pass.
 
 ![Image of Branching](https://github.com/betsalel-williamson/Fossil-SCM-How-To/blob/main/fossil-example-branch.png)
