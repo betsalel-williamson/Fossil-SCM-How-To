@@ -1,7 +1,5 @@
 #!/usr/bin/env sh
 
-#### STOPPED WORKING HERE ####, need to look at 02 to make branch creation similar
-
 # feature two edits file1.txt to read "bar"
 USER=FeatureDeveloperBravo
 TIMESTAMP="2020 10 17 911EST"
