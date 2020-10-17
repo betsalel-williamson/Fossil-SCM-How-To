@@ -31,8 +31,8 @@ echo "\nResults from ls:"
 ls src
 echo "\n\n"
 
-# there should not be any file2.txt now
-# file1.txt should still read foo
+echo "There should not be any file2.txt"
+echo "file1.txt should still read 'foo'"
 
 echo "Review timeline for results..."
 fossil ui example.fossil

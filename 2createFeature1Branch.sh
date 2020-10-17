@@ -10,6 +10,7 @@ fossil status
 
 # example using the --user command, note that this isn't necessary here
 # because we set the env USER variable already to 'FeatureDeveloperAlpha'
+
 fossil commit --branch "F-$MSG $TIMESTAMP" --tag "Feature; $MSG $TIMESTAMP" --user $USER -m "Creating branch with User($USER)" --allow-empty
 fossil branch current
 echo "Branch shoule be 'F-$MSG $TIMESTAMP'"

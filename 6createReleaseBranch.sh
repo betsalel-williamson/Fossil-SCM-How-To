@@ -10,6 +10,7 @@ fossil branch current
 # save test report for QA purposes
 echo "some release report">reports/some-release-report.txt
 fossil add reports/some-release-report.txt
+
 # update latest stable version information
 echo "$VERSION signed off by $USER.">stable-version.txt
 fossil add stable-version.txt
