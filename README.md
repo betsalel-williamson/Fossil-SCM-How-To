@@ -1,5 +1,5 @@
 # Fossil SCM How To
-Collection of simple commands for Fossil SCM.  The scripts are ordered and include examples of a simple development cycle from the creation of a Fossil repository through testing and release.
+Collection of simple commands for [Fossil SCM!](https://www.fossil-scm.org).  The scripts are ordered and include examples of a simple development cycle from the creation of a Fossil repository through testing and release.
 
 The following four types of branches are effective in managing software through development, testing, and release.
 
