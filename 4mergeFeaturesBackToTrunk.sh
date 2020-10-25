@@ -1,6 +1,8 @@
 #!/usr/bin/env sh
 
 # next we merge the change back to trunk
+fossil checkout trunk
+
 USER=LeadDeveloper
 TIMESTAMP="2020 10 17 910EST"
 MSG="Add file2"
